@@ -3,7 +3,7 @@
 }
 
 .Banner-Inicia {
-    visibility:visible;
+    visibility: visible;
     position: relative;
     animation-name: AnimacionIniciaJuego; /*Link al frame de animacion*/
     animation-duration: 4s; /*Duracion de la animacion*/
