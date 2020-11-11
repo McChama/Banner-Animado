@@ -1,15 +1,8 @@
 function Animacion(){
-    /*Obtener objeto de la animacion*/
-    var Animacion = document.getElementById("Banner-Inicia");
-
-    /*Activar animacion*/ 
-    Animacion.style.animationPlayState="running";
-
-    /*Reiniciar animacion*/ 
+    var Animacion = document.getElementById("div");
+    Animacion.classList.toggle("Banner-Inicia");
+    
     setTimeout(function(){
-        Animacion.style.animation = 'none'; 
-        setTimeout(function() {
-            Animacion.style.animation = '';
-        }, 0); /*En cuanto acabe la animacion, reiniciala*/
-    },4000)   /*Espera a que acabe el tiempo de la animacion*/
+        Animacion.classList.toggle("Banner-Inicia");
+    },4000);
 }
