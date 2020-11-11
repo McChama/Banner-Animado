@@ -1,0 +1,15 @@
+#Banner-Inicia {
+    position: relative;
+    animation-name: AnimacionIniciaJuego; /*Link al frame de animacion*/
+    animation-duration: 4s; /*Duracion de la animacion*/
+    animation-timing-function: cubic-bezier(1, 0, 0, 1); /*Modo de progreso de animacion*/
+    animation-fill-mode: forwards; /*Quedate en tu ultima posicion al terminar la animacion*/
+    animation-play-state: paused; /*Esta inicial: Pausado*/
+}
+
+/*Movimiento que realizara la animacion*/
+@keyframes AnimacionIniciaJuego {
+    0%   {left: -100%; top: 0px;}
+    50%  {left: 25%; top: 0px;}
+    100% {left: 100%; top: 0px;}
+}
