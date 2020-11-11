@@ -4,5 +4,5 @@ function Animacion(){
     
     setTimeout(function(){
         Animacion.classList.toggle("Banner-Inicia");
-    },4000);
+    },4000 );
 }
